@@ -1,4 +1,18 @@
-body {
-    background: rgb(187, 173, 173);
-    color: rgb(255, 0, 0);
+* {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root { 
+    --color-bg: #357960;
+    --color-bg-variant: #92a143;
+    --color-primary: #0b2a92;
+    --color-primary-variant: #0cabba;
+    --color-white: #fff;
+    --color-light: rgba(225, 225, 225, 0.6);
 }
