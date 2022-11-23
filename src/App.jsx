@@ -11,7 +11,7 @@ import Footer from './components/footer/Footer.jsx'
 
 const App = () => {
   return (
-    <>
+    <div>
       <Header/>
       <Nav/>
       <About/>
@@ -19,7 +19,7 @@ const App = () => {
       <ThisSite/>
       <Contact/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
