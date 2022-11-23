@@ -10,6 +10,8 @@
     text-decoration: none;
 }
 
+/* Global CSS variables */
+
 :root { 
     --color-bg: #357960;
     --color-bg-variant: #92a143;
@@ -22,6 +24,8 @@
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
+
+/* General Webpage Details */
 
 html {
     scroll-behavior: smooth;
@@ -38,7 +42,7 @@ body {
     line-height: 1.7;    
 }
 
-
+/* Global Styles */
 
 .container {
     width: car(--container-width-lg);
@@ -60,6 +64,15 @@ section {
 section > h2, section > h5 { 
     text-align: center; 
     color: var(--color-light);
+}
+
+a { 
+    color: var(--color-bg-variant);
+    transition: 0.3s;
+}
+
+a:hover { 
+    color: var(--color-white);
 }
 
 
