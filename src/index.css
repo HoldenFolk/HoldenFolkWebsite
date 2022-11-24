@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap');
 
 * {
     margin: 0; 
@@ -13,10 +13,10 @@
 /* Global CSS variables */
 
 :root { 
-    --color-bg: #357960;
-    --color-bg-variant: #92a143;
-    --color-primary: #0b2a92;
-    --color-primary-variant: #0cabba;
+    --color-bg: #262929;
+    --color-bg-variant: #74998D;
+    --color-primary: #1e6963;
+    --color-primary-variant: #ECF501;
     --color-white: #fff;
     --color-light: rgba(225, 225, 225, 0.6);
 
@@ -36,7 +36,7 @@ html {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;    
@@ -59,6 +59,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 10vh;
 }
 
 section > h2, section > h5 { 
@@ -83,6 +84,17 @@ a:hover {
     border-radius: 0.4rem;
     cursor: pointer;
     border: 2px solid var(--color-primary);
+    transition: 0.3s
+}
+
+.btn__secondary { 
+    width: max-content;
+    display: inline-block;
+    color: var(--color-bg);
+    background: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
     transition: 0.3s
 }
 
