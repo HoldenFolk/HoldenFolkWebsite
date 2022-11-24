@@ -92,5 +92,24 @@ img {
     object-fit: cover;
 }
 
+@media sceen and (max-width: 1024px) { 
+    .container { 
+        width: var(--container-width-md)
+    }
 
+    section {
+        margin-top: 6rem;
+    }
+}
+
+@media sceen and (max-width: 1024px) { 
+    .container { 
+        width: var(--container-width-sm)
+    }
+
+    section > h2{
+        margin-bottom: 2rem;
+    }
+
+}
 
