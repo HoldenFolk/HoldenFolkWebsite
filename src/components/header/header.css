@@ -24,6 +24,9 @@ header {
     gap: 0.8rem;
     font-size: 3em;
     justify-content: center;
+}
+
+.socials { 
     color: var(--color-primary-variant);
 }
 
@@ -37,5 +40,4 @@ header {
     margin-top: 6rem;
     border-radius: 12rem 12rem 0rem 0rem;
     border-bottom: 10rem;
-    
 }

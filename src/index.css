@@ -16,7 +16,7 @@
     --color-bg: #262929;
     --color-bg-variant: #74998D;
     --color-primary: #1e6963;
-    --color-primary-variant: #ECF501;
+    --color-primary-variant: #FFA500;
     --color-white: #fff;
     --color-light: rgba(225, 225, 225, 0.6);
 
@@ -45,7 +45,7 @@ body {
 /* Global Styles */
 
 .container {
-    width: car(--container-width-lg);
+    width: var(--container-width-lg);
     margin: 0 auto;
 }
 
