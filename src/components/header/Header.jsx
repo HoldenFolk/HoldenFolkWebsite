@@ -7,7 +7,7 @@ import ProfilePic from "../../assets/ProfilePic.png"
 const Header = () => {
   return (
     <header>
-        <div className="container header__container">
+        <div className="header__container">
 
             <h5 >Welcome to the webpage of:</h5>
             <h1 className='typewriter'>Holden Folk</h1>
