@@ -1,8 +1,8 @@
 
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 35% 40%;
+    gap: 10%;
 }
 
 .about__me {
@@ -11,9 +11,9 @@
     border-radius: 2rem;
     background: linear-gradient(
         45deg,
-        transparent,
         var(--color-primary),
-        transparent
+        var(--color-bg-variant),
+        var(--color-primary)
     );
     display: grid;
     place-items: center;
@@ -22,16 +22,17 @@
 .workImage { 
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    margin: 0 1rem 0;
 }
 
 #about h2 { 
     margin-bottom: 1rem;
 }
 
+/* 
 .workImage:hover {
     transform: rotate(0);
-}
+} */
 
 .about__tags { 
     display: grid;
@@ -54,13 +55,14 @@
 }
 
 .about__icon { 
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
 
-.about__card h5 { 
+.about__tag h5 { 
     font-size: 0.95rem;
+    color: var(--color-white);
 }
 
 .about__tag small { 
@@ -82,7 +84,7 @@
 
     .about__me {
         width: 50%;
-        margin: 2rem auto 4rem;
+        margin: 0rem auto 0rem;
     }
 
     .about__content p {
@@ -94,7 +96,7 @@
 @media screen and (max-width: 600px) {
     .about__me {
         width: 65%;
-        margin: 0 auto 3rem;
+        margin: 0 auto 0rem;
     }
 
     .about__tags { 
