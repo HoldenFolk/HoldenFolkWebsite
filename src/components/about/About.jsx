@@ -25,19 +25,19 @@ const About = () => {
           <article className='about__tag'> 
             <GiClassicalKnowledge className="about__icon"/> 
             <h5> Experience </h5>
-            <small> Has done x </small>
+            <small> 3 Internships Completed</small>
           </article> 
 
           <article className= "about__tag"> 
             <IoMdSchool className='about__icon'/>
             <h5> Education </h5>
-            <small> Lorem Ipsum </small>
+            <small> Pursuing Comp-Sci Degree</small>
           </article>
 
           <article className='about__tag'>
              <RiLightbulbLine className='about__icon'/>
              <h5> Intrests </h5>
-             <small> Lorem Ipsum </small>
+             <small> Web Development/Design </small>
           </article> 
         </div>
 
