@@ -38,7 +38,7 @@ const Contact = () => {
         </article>
         <article className='contact__option'> 
         <AiOutlineWhatsApp className='contact__option-icon'/> 
-          <h4>LinhkedIn</h4>
+          <h4>LinkedIn</h4>
           <h5>Holden Folk</h5>
           <a href="https://www.linkedin.com/in/holden-folk-995b8220a" target='_blank'>Send a message</a>
         </article>

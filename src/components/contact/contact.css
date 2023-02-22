@@ -1,3 +1,11 @@
+#contact { 
+    margin-top: 10rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
 .container.contact__container {
     width: 58%;
     display: grid;
