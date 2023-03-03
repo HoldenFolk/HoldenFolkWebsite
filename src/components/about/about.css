@@ -1,7 +1,7 @@
 
 .about__container {
     display: grid;
-    grid-template-columns: 35% 40%;
+    grid-template-columns: 35% 55%;
     gap: 10%;
 }
 

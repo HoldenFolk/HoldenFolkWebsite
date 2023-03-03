@@ -42,10 +42,12 @@ const About = () => {
         </div>
 
         <p> 
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-          Eos assumenda dicta nemo vitae ullam quae necessitatibus?
-           Eveniet voluptatum incidunt consequuntur provident? Ipsum placeat,
-            quaerat reprehenderit amet soluta sunt ducimus mollitia?
+          Hello! My name is Holden. I am a second year computer science 
+          student at McGill University. My intrests include software design and 
+          development, web design, and database systems. I have currently completed
+          both internships in web design and finance, and am always looking for further
+          opportunities to learn and collaborate in interesting environments. Check
+          out my resume and LinkedIn to learn more about my experience. 
         </p>
 
         <a href="#contact"  className='btn btn-primary'> Lets Talk! </a>
