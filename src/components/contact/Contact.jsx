@@ -37,13 +37,13 @@ const Contact = () => {
           <a href="mailto:holdenfolk1@gmail.com" target='_blank'>Send a message</a>
         </article>
         <article className='contact__option'> 
-        <AiOutlineWhatsApp className='contact__option-icon'/> 
+        <AiOutlineLinkedin className='contact__option-icon'/> 
           <h4>LinkedIn</h4>
           <h5>Holden Folk</h5>
           <a href="https://www.linkedin.com/in/holden-folk-995b8220a" target='_blank'>Send a message</a>
         </article>
         <article className='contact__option'> 
-        <AiOutlineLinkedin className='contact__option-icon'/> 
+        <AiOutlineWhatsApp className='contact__option-icon'/> 
           <h4>Phone/WhatsApp</h4>
           <h5>+1 647-967-2658</h5>
           <a href="https://api.whatsapp.com/send?phone=16479672658" target='_blank'>Send a message</a>

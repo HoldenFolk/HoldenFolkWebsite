@@ -16,14 +16,15 @@ const Header = () => {
             
             <CTA/>
 
+            <h5> My Socials: </h5>
+
+            <HeaderSocials/>
+
             <div className="headshot">
               <img src={ProfilePic} alt="headshot"/>
             </div>
 
-            <h5> My Socials: </h5>
-
-            <HeaderSocials/>
-            
+           
         </div>
     </header>
   )
