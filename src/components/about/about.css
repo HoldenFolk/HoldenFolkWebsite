@@ -95,8 +95,8 @@
 /* Media changes (SMALL or Mobile) */
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
-        margin: 0 auto 0rem;
+        width: 90%;
+        margin: 1rem 0rem 0rem;
     }
 
     .about__tags { 
@@ -104,12 +104,8 @@
         gap: 1rem;
     }
 
-    .about__content {
-        text-align: center;
-    }
-    
-    about__content p { 
-        margin: 1.5rem 0;
+    .about__content p { 
+        margin: 1.5rem 0rem;
     }
 
 }

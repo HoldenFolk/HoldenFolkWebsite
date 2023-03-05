@@ -43,6 +43,19 @@ header {
     overflow: hidden;
 }
 
+
+
+@media screen and (max-width: 600px) {
+    header {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
+    }
+}
+
 /* Typewriter effect in progress
     TODO: Fix cursor going to end of container instead of text */
 
