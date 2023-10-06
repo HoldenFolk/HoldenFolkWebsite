@@ -1,6 +1,6 @@
 # Holden Folk's Personal Website
 
-This project is for me (Holden Folk) to show off some of my intrests and skills in a React.js website. Feel free to see the entire creation process through my commits! 
+This project is for me (Holden Folk) to show off some of my interests and skills in a React.js website. Feel free to see the entire creation process through my commits! View the website hosted on AWS at [www.holden-folk.com]
 
 ## Running this project
 
