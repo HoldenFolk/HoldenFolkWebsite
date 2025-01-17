@@ -1,6 +1,8 @@
+**Note**: This project has been depricated. See Holden's new personal website [here](https://github.com/HoldenFolk/holden-website-v2)!
+
 # Holden Folk's Personal Website
 
-This project is for me (Holden Folk) to show off some of my interests and skills in a React.js website. Feel free to see the entire creation process through my commits! View the website hosted on AWS at [www.holden-folk.com]
+This project is for me (Holden Folk) to show off some of my interests and skills in a React.js website. Feel free to see the entire creation process through my commits! View the website hosted on AWS at [https://main.d2zsz7gj35zidg.amplifyapp.com]
 
 ## Running this project
 
